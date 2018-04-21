@@ -23,6 +23,12 @@ namespace VidRents.Models
     {
 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Movie> Movies { get; set;}
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            
+        }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

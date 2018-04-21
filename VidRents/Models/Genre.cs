@@ -5,13 +5,10 @@ using System.Web;
 
 namespace VidRents.Models
 {
-    public class MembershipType
+    public class Genre
     {
         public byte Id { get; set; }
         public string Name { get; set; }
-        public short SignUpFee { get; set; }
-        public byte DurationInMonths { get; set; }
-        public byte DiscountRate { get; set; }
 
     }
 }

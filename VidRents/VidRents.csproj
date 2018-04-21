@@ -217,9 +217,26 @@
     <Compile Include="Migrations\201804181300062_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201804181300062_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804191109297_AddNamePropToMembershipType.cs" />
+    <Compile Include="Migrations\201804191109297_AddNamePropToMembershipType.Designer.cs">
+      <DependentUpon>201804191109297_AddNamePropToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804191118476_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201804191118476_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201804191118476_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804191126297_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201804191126297_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201804191126297_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804191148298_AddMovie.cs" />
+    <Compile Include="Migrations\201804191148298_AddMovie.Designer.cs">
+      <DependentUpon>201804191148298_AddMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -320,6 +337,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804181300062_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201804181300062_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804191109297_AddNamePropToMembershipType.resx">
+      <DependentUpon>201804191109297_AddNamePropToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804191118476_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201804191118476_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804191126297_AddBirthdateToCustomer.resx">
+      <DependentUpon>201804191126297_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804191148298_AddMovie.resx">
+      <DependentUpon>201804191148298_AddMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
